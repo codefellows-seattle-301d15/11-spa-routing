@@ -5,7 +5,6 @@
     /* TODO: Use your DOM skills to reveal only the about section! */
     $('#articles').hide();
     $('#about').show();
-    console.log('About switched');
   };
 
   module.aboutController = aboutController;

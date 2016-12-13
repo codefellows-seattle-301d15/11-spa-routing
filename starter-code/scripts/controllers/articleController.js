@@ -3,8 +3,8 @@
 
   articleController.reveal = function() {
     /* TODO: Use your DOM skills to reveal only the articles section! */
+    $('#about').hide();
     $('#articles').show();
-    console.log('Article switched');
   };
 
   module.articleController = articleController;
