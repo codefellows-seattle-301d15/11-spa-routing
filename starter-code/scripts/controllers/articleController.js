@@ -7,3 +7,5 @@
 
   module.articleController = articleController;
 })(window);
+
+// LNK THIS TO ARTICLES ROUTE BY POINTING TO INSIDE ROUTE FILE
