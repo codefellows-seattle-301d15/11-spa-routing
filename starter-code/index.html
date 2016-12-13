@@ -44,7 +44,7 @@
         <ul>
           <!-- NOTE: our href attributes are now pointing to routes! -->
           <li class="tab" data-content="articles"><a href="/" class="icon-home"> Home</a></li>
-          <li class="tab" data-content="about"><a href="/about" class="icon-address-book"> About</a></li>
+          <li class="tab" data-content="about"><a href="./about" class="icon-address-book"> About</a></li>
           <li><a href="http://twitter.com/codefellowsSEA" target="_blank" class="icon-twitter3"> Twitter</a></li>
           <li><a href="http://github.com/" target="_blank" class="icon-github"> GitHub</a></li>
         </ul>
@@ -89,8 +89,8 @@
       &copy; 2016 Code Fellows | Static Blog | Happy Ipsum!
     </footer>
     <!-- Vendor Files -->
-    <!-- TODO: link to our new page.js library within vendors-->
-
+    <!-- TODONE: link to our new page.js library within vendors-->
+    <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
     <script src="vendor/scripts/jquery-2.1.4.js"></script>
     <script src="vendor/scripts/handlebars.js"></script>
     <script src="vendor/scripts/marked.js"></script>
@@ -100,7 +100,14 @@
     <script src="scripts/models/article.js"></script>
     <!-- View Files -->
     <script src="scripts/views/articleView.js"></script>
-    <!-- TODO: place here ALL new Controller Files -->
+    <!-- TODONE: place here ALL new Controller Files -->
     <!-- Controller Files -->
+    <script src="scripts/controllers/aboutController.js"></script>
+    <script src="scripts/controllers/articleController.js"></script>
+    <script src="scripts/controllers/routes.js"></script>
+
+    </script>
+
+    </script>
   </body>
 </html>
